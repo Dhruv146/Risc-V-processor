@@ -18,7 +18,7 @@ module REG_FILE(
     input [4:0] write_reg,
     input [31:0] write_data,
     output [31:0] read_data1,
-    output [31:0] read_data2,
+    
     input regwrite,
     input clock,
     input reset
