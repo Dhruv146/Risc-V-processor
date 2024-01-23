@@ -24,7 +24,6 @@ module stimulus ();
     clock,
     reset);
 
-    // Setting up output waveform
 
 
     // Initializing the registers
