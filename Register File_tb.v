@@ -25,10 +25,7 @@ module stimulus ();
     reset);
 
     // Setting up output waveform
-    initial begin
-        $dumpfile("output_wave.vcd");
-        $dumpvars(0, stimulus);
-    end
+
 
     // Initializing the registers
     initial begin
