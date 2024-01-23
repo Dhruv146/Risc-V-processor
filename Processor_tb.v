@@ -9,10 +9,7 @@ module stimulus ();
     // Instantiating the processor!!!
     PROCESSOR test_processor(clock,reset,zero);
 
-    initial begin
-        $dumpfile("output_wave.vcd");
-        $dumpvars(0,stimulus);
-    end
+   
 
     initial begin
         reset = 1;
