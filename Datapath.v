@@ -1,5 +1,5 @@
-`include "./../Register file/REG_FILE.v"
-`include "./../ALU/ALU.v"
+`include "REG_FILE.v"
+`include "ALU.v"
 
 module DATAPATH(
     input [4:0]read_reg_num1,
