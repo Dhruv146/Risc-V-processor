@@ -1,15 +1,12 @@
 /*
 A register file can read two registers and write in to one register. 
-The RISC V register file contains total of 32 registers each of size 32-bit. 
 Hence 5-bits are used to specify the register numbers that are to be read or written. 
 */
 
 /*
 Register Read: Register file always outputs the contents of the register corresponding to read register numbers specified. 
 Reading a register is not dependent on any other signals.
-
-Register Write: Register writes are controlled by a control signal RegWrite.  
-Additionally the register file has a clock signal. 
+Register Write: Register writes are controlled by a control signal RegWrite.   
 The write should happen if RegWrite signal is made 1 and if there is positive edge of clock. 
 */
 
